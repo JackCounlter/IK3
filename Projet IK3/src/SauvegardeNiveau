@@ -3,7 +3,7 @@ import java.io.*;
 
 public class SauvegardeNiveau {
 	
-	ObjectInputStream ois;    ObjectOutputStream oos;
+	ObjectOutputStream oos;
     
 	public SauvegardeNiveau(String s, Plateau n, Plateau model) {
 		try{
